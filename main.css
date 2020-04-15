@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* menu*/
+.menu{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: Poppins,sans-serif;
+    position: fixed;
+    font-weight: bold;
+    background:#1f1c1a; 
+    z-index: 1;
+}
+.nav_main{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.nav_main span:first-child{
+    color: #7ab3b2;
+}
+.nav_main span:nth-child(2){
+    color: #9aa84a;
+}
+.nav_main span:nth-child(3){
+    color: #c9753d;
+}
+.nav_main span:nth-child(4){
+    color: #db4f4f;
+}
+.nav_main span:nth-child(5){
+    color: #a585be;
+}
+.nav_main span:nth-child(6){
+    color: #d3994c;
+}
+.nav_main span:nth-child(7){
+    color: #ddd64e;
+}
+.nav_main span:nth-child(8){
+    color: #c9753d;
+}
+/* menu_buttons */
+.nav_menu_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* games */
+.nav_fa_games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.fa_games{
+    color: #7ab3b2;
+}
+.nav_games{
+    color: #7ab3b2;
+}
+
+/* reading */
+.nav_fa_reading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.fa_reading{
+    color:#f48f4a;
+}
+.nav_reading{
+    color:#f48f4a;
+}
+
+/* videos */
+.nav_fa_videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.fa_videos{
+    color: #8a719e
+}
+.nav_videos{
+    color: #8a719e;
+}
+
+/* playground */
+.nav_fa_playground{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.fa_playground{
+    color: #98a64a;
+}
+.nav_playground{
+    color: #98a64a;
+}
+
+/* mathZone */
+.nav_fa_mathZone{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.fa_mathZone{
+    color: #63a0cd;
+}
+.nav_mathZone{
+    color: #63a0cd;
+}
