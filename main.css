@@ -54,6 +54,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 17px;
 
 }
 
@@ -131,4 +132,138 @@
 }
 .nav_mathZone{
     color: #63a0cd;
+}
+.gradePage{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #dbd7d2;
+}
+.grade_span_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+}
+.grade_span_k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #dd89b7;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+}
+.grade_span_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #66a2cc;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #fcbe55;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #aabe53;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #f48f4a;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #a585be  ;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #ddd64e;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #ff5c5c;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+}
+.grade_span_8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: #7ab3b2;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
 }
