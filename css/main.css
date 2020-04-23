@@ -380,6 +380,30 @@
     color:#46ccc5;
 }
 
+/* PopularVideos */
+.PopularBooks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Poppins,sans-serif;
+}
+
+.PopularBooks a{
+    color: black;
+    text-decoration: none;
+}
+
+.PopularBooks span:first-child{
+    font-weight: 900;
+    font-size: 28px;
+}
+.PopularBooks span:nth-child(2){
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+.PopularBooks a:hover{
+    color:#46ccc5;
+}
 /* empty_panel */
 
 .empty_panel{
@@ -666,6 +690,102 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+/* exampleOfBooks */
+
+.books_example{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+}
+
+/* first_exampleOfBooks */
+.first_exampleOfBooks{
+    width: 192px;
+    margin: 30px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.first_exampleOfBooks_pic img{
+    width: 192px;
+    height: 129px;
+    
+}
+.first_exampleOfBooks_text{
+    padding: 20px;
+    
+}
+/* second_exampleOfBooks */
+.second_exampleOfBooks{
+    width: 192px;
+    margin: 30px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.second_exampleOfBooks_pic img{
+    width: 192px;
+    height: 129px;
+}
+.second_exampleOfBooks_text{
+    padding: 20px;
+    
+}
+/* third_exampleOfBooks */
+.third_exampleOfBooks{
+    width: 192px;
+    margin: 30px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.third_exampleOfBooks_pic img{
+    width: 192px;
+    height: 129px;
+}
+.third_exampleOfBooks_text{
+   padding: 20px;
+   
+}
+
+
+/* example_of_games Button */
+.exampleOfBooks_button {
+    font-family: Poppins,sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 15px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+
+}
+.exampleOfBooks_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.exampleOfBooks_button:hover{
+    font-family: Poppins,sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 15px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
 }
 
 
