@@ -545,6 +545,7 @@
 .third_exampleOfGame_pic img{
     width: 192px;
     height: 129px;
+    background-color: #fff9f0;
 }
 .third_exampleOfGame_text{
    padding: 20px;
