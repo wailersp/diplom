@@ -17,7 +17,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
     position: fixed;
     font-weight: bold;
-    background:#1f1c1a; 
+    background:black; 
     z-index: 1;
 }
 .nav_main{
@@ -457,8 +457,15 @@
 }
 .splitedPanel_secondSpan{
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.splitedPanel_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
 
 }
 /* button */
@@ -867,4 +874,10 @@
 }
 .privacyPolice li {
     color: lightgray;
+}
+
+/*invise for js*/
+.invise{
+    display: none;
+    transition: 1s all;
 }
