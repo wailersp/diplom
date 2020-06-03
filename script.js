@@ -1,3 +1,40 @@
+// Первая игра 
+window.onload = function () {
+
+  var showGame = document.querySelector('.slider');
+
+  var firstClickGame = document.querySelector('.grade_span_k');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  firstClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+}
+// Вторая игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var SecondClickGame = document.querySelector('.grade_span_1');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  SecondClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+// 1st game examaple with slider
 'use strict';
 var multiItemSlider = (function () {
 
@@ -239,21 +276,4 @@ var slider = multiItemSlider('.slider', {
   isCycling: true
 })
 
-// хайдим
-window.onload = function () {
 
-  var showGame = document.querySelector('.firstGame');
-
-  var clickGame = document.querySelector('.slider');
-  var mens = document.querySelector('.razvertka_text');
-  var comeBack = document.querySelector('.goBack');
-
-  clickGame.onclick = function () {
-      mens.classList.add('invise');
-      showGame.classList.remove('invise');
-  }
-  comeBack.onclick = function () {
-      mens.classList.remove('invise');
-      showGame.classList.add('invise');
-  }
-}
