@@ -1,23 +1,8 @@
-// Первая игра 
+// Первая игра  /
 window.onload = function () {
 
-  var showGame = document.querySelector('.slider');
 
-  var firstClickGame = document.querySelector('.grade_span_k');
-  var games = document.querySelector('.gradePage');
-  var comeBack = document.querySelector('.goBack');
-
-  firstClickGame.onclick = function () {
-      games.classList.add('invise');
-      showGame.classList.remove('invise');
-  }
-  comeBack.onclick = function () {
-      games.classList.remove('invise');
-      showGame.classList.add('invise');
-  }
-}
-// Вторая игра
-
+// Вторая игра / СЛОНИК И ХОБОТ
 
   var showGame = document.querySelector('.slider');
 
@@ -34,6 +19,134 @@ window.onload = function () {
       showGame.classList.add('invise');
   }
   
+  // 3 игра УКАЖИ ДЕТЕНЫША 
+
+
+  var showGame = document.querySelector('.slider');
+
+  var ThirdClickGame = document.querySelector('.grade_span_2');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  ThirdClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 4 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var FourClickGame = document.querySelector('.grade_span_3');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  FourClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 5 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var FiveClickGame = document.querySelector('.grade_span_4');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  FiveClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 6 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var SixClickGame = document.querySelector('.grade_span_5');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  SixClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 7 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var SevenClickGame = document.querySelector('.grade_span_6');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  SevenClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 8 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var EightClickGame = document.querySelector('.grade_span_7');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  EightClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+  
+  // 9 игра
+
+
+  var showGame = document.querySelector('.slider');
+
+  var NineClickGame = document.querySelector('.grade_span_8');
+  var games = document.querySelector('.gradePage');
+  var comeBack = document.querySelector('.goBack');
+
+  NineClickGame.onclick = function () {
+      games.classList.add('invise');
+      showGame.classList.remove('invise');
+  }
+  comeBack.onclick = function () {
+      games.classList.remove('invise');
+      showGame.classList.add('invise');
+  }
+}
+
 // 1st game examaple with slider
 'use strict';
 var multiItemSlider = (function () {
