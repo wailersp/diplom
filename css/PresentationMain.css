@@ -17,7 +17,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
     position: fixed;
     font-weight: bold;
-    background:black; 
+    background: #4f2377; 
     z-index: 1;
 }
 .nav_main{
@@ -28,30 +28,6 @@
     justify-content: space-around;
 
 }
-/* .nav_main span:first-child{
-    color: #7ab3b2;
-}
-.nav_main span:nth-child(2){
-    color: #9aa84a;
-}
-.nav_main span:nth-child(3){
-    color: #c9753d;
-}
-.nav_main span:nth-child(4){
-    color: #db4f4f;
-}
-.nav_main span:nth-child(5){
-    color: #a585be;
-}
-.nav_main span:nth-child(6){
-    color: #d3994c;
-}
-.nav_main span:nth-child(7){
-    color: #ddd64e;
-}
-.nav_main span:nth-child(8){
-    color: #c9753d;
-} */
 
 /* menu_buttons */
 .nav_menu_buttons{
@@ -72,10 +48,10 @@
     text-decoration: none;
 }
 .fa_games{
-    color: gray;
+    color: #b3aeae;
 }
 .nav_games{
-    color: gray;
+    color: #b3aeae;
 }
 
 /* reading */
@@ -89,10 +65,10 @@
 }
 
 .fa_reading{
-    color:#f48f4a;
+    color:#ffad75;
 }
 .nav_reading{
-    color:#f48f4a;
+    color:#ffad75;
 }
 
 /* videos */
@@ -105,15 +81,15 @@
     text-decoration: none;
 }
 .fa_videos{
-    color: gray;
+    color: #b3aeae;
 }
 .nav_videos{
-    color: gray;
+    color: #b3aeae;
 }
 
 
-/* mathZone */
-.nav_fa_mathZone a{ 
+/* Zone */
+.nav_fa_Zone a{ 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -121,11 +97,11 @@
     padding: 15px;
     text-decoration: none;
 }
-.fa_mathZone{
-    color: gray;
+.fa_Zone{
+    color: #b3aeae;
 }
-.nav_mathZone{
-    color: gray;
+.nav_Zone{
+    color: #b3aeae;
 }
 /* gradePage */
 .gradePage{
@@ -790,7 +766,7 @@
     padding: 50px;
     background-color: #2a2928;
     width: 100%;
-    height: 30%;
+    height: 300px;
     color: #f0ece7;
     font-family: 'Ubuntu Condensed', sans-serif;
     display: flex;
