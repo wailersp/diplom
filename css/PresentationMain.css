@@ -18,7 +18,7 @@
     position: fixed;
     font-weight: bold;
     background: #4f2377; 
-    z-index: 1;
+    z-index: 99;
 }
 .nav_main{
     font-size: 50px;
@@ -129,7 +129,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #dd89b7;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -148,7 +148,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #66a2cc;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -167,7 +167,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #fcbe55;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -185,7 +185,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #aabe53;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -204,7 +204,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #f48f4a;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -222,7 +222,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #a585be;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -241,7 +241,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ddd64e;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -259,7 +259,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ff5c5c;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -277,7 +277,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #7ab3b2;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -374,6 +374,8 @@
     padding: 20px;
     background-color: #f0ece7;
 }
+
+
 
 
 /* splitedPanel */
@@ -837,7 +839,197 @@
 .privacyPolice li {
     color: lightgray;
 }
+/* gobackPresentatin */
 
+.goBack {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBack button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 2 */
+.goBackTo {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackTo button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 3 */
+.goBackToThree {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToThree button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 4 */
+.goBackToFour {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFour button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 5 */
+.goBackToFive {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFive button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 6 */
+.goBackToSix {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSix button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 7 */
+.goBackToSeven {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSeven button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 8 */
+.goBackToEight {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToEight button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* к */
+.goBackInst {
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackInst button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
 /*invise for js*/
 .invise{
     display: none;

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* 1gameExample */
+.SevenImagesExample{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7;
+}
+.SevenGamesImgExample{
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+.SevenGamesImgExample:first-child{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    }
+/* 1gametext */
+.GamesSevenExampleOfText {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #ff5c5c;
+    background-color: #f0ece7;  
+}
+
+.none{
+    display:none;
+}
+
+/*invise for js*/
+.invise{
+    display: none;
+    transition: 1s all;
+}

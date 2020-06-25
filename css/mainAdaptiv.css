@@ -1,0 +1,2644 @@
+@media only screen and (max-width: 1440px) {
+    .closes{
+        left: 58%;
+        bottom: 63%;
+    }
+    .closs{
+        left: 58%;
+        bottom: 63%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+ /* menu_buttons */
+ .nav_menu_buttons{
+    font-size: 14px;
+}
+/* reg inv */
+.modal_buttons{
+padding: 10px;
+font-size: 16px;
+}
+.modal_buttons span{
+padding: 0 15px;
+}
+.button{
+font-size: 16px;
+background: #397db9;
+}
+/* gradePage */
+.gradePage{
+    width: 100%;
+    height: 300px;
+}
+.grade_span_text{
+    font-size: 18px;
+}
+.grade_span_k a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_1 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_2 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_3 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_4 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_5 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_6 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_7 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+.grade_span_8 a{
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+}
+/* splitedPanel_pic*/
+.splitedPanel_pic{
+    border-radius: 50px 0 0 50px;
+}
+.splitedPanel_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.splitedPanel_text{
+    border-radius: 0 50px 50px 0;
+    width: 300px;
+    height: 300px;
+}
+.splitedPanel_firstSpan{
+    font-size: 25px;
+    font-weight: 700;
+}
+.splitedPanel_secondSpan{
+    font-size: 15px;
+    font-weight: 400;
+}
+.splitedPanel_secondSpan a{
+    font-size: 13px;
+}
+/* button */
+.splitedPanel_button {
+    font-size: 20px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+}
+.splitedPanel_button:hover{
+    font-size: 20px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+}
+/* first_exampleOfGame */
+.first_exampleOfGame{
+    width: 192px;
+    margin: 10px;
+}
+.first_exampleOfGame_pic img{
+    background-color: #fff9f0;
+    width: 192px;
+    height: 150px;
+}
+.first_exampleOfGame_text{
+    padding: 20px;
+}
+/* second_exampleOfGame */
+.second_exampleOfGame{
+    width: 192px;
+    margin: 10px;
+}
+.second_exampleOfGame_pic img{
+    width: 192px;
+    height: 150px;
+}
+.second_exampleOfGame_text{
+    padding: 20px;
+    
+}
+/* third_exampleOfGame */
+.third_exampleOfGame{
+    width: 192px;
+    margin: 10px;
+}
+.third_exampleOfGame_pic img{
+    width: 192px;
+    height: 150px;
+}
+.third_exampleOfGame_text{
+   padding: 20px;
+}
+/* example_of_games Button */
+.exampleOfGame_button {
+    font-size: 15px;
+}
+/* video */
+.video{
+    padding: 20px;
+}
+/* first_exampleOfVideo */
+.first_exampleOfVideo{
+    width: 192px;
+    margin: 10px;
+}
+.first_exampleOfVideo_pic img{
+    width: 192px;
+    height: 150px;   
+}
+.first_exampleOfVideo_text{
+    padding: 20px;
+}
+/* second_exampleOfVideo */
+.second_exampleOfVideo{
+    width: 192px;
+    margin: 10px;
+}
+.second_exampleOfVideo_pic img{
+    width: 192px;
+    height: 150px;
+}
+.second_exampleOfVideo_text{
+    padding: 20px; 
+}
+/* third_exampleOfVideo */
+.third_exampleOfVideo{
+    width: 192px;
+    margin: 10px;
+}
+.third_exampleOfVideo_pic img{
+    width: 192px;
+    height: 150px;
+}
+.third_exampleOfVideo_text{
+   padding: 20px; 
+}
+.video{
+    padding: 20px;
+}
+/* first_exampleOfBooks */
+.first_exampleOfBooks{
+    width: 192px;
+    margin: 10px;
+}
+.first_exampleOfBooks_pic img{
+    width: 192px;
+    height: 150px;
+}
+.first_exampleOfBooks_text{
+    padding: 20px;
+}
+/* second_exampleOfBooks */
+.second_exampleOfBooks{
+    width: 192px;
+    margin: 10px;
+}
+.second_exampleOfBooks_pic img{
+    width: 192px;
+    height: 150px;
+}
+.second_exampleOfBooks_text{
+    padding: 20px;
+}
+/* third_exampleOfBooks */
+.third_exampleOfBooks{
+    width: 192px;
+    margin: 10px;
+}
+.third_exampleOfBooks_pic img{
+    width: 192px;
+    height: 150px;
+}
+.third_exampleOfBooks_text{
+   padding: 20px;
+}
+}
+@media only screen and (max-width: 1366px) {
+    /* menu_buttons */
+    .nav_menu_buttons{
+        font-size: 14px;
+    
+    }
+    /* reg inv */
+.modal_buttons{
+    padding: 10px;
+    font-size: 16px;
+}
+.modal_buttons span{
+    padding: 0 15px;
+}
+.button{
+    font-size: 16px;
+    background: #397db9;
+}
+    /* gradePage */
+    .gradePage{
+        width: 100%;
+        height: 300px;
+    }
+    .grade_span_text{
+        font-size: 18px;
+    }
+    .grade_span_k a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_1 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_2 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_3 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_4 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_5 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_6 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_7 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_8 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .PopularGames span:first-child{
+        font-size: 20px;
+    }
+    .PopularVideos span:first-child{
+        font-size: 20px;
+    }
+    .PopularBooks span:first-child{
+        font-size: 20px;
+    }
+    /* splitedPanel_pic*/
+    .splitedPanel_pic{
+        border-radius: 50px 0 0 50px;
+    }
+    .splitedPanel_pic img{
+        width: 300px;
+        height: 300px;
+    }
+    /* splitedPanel_text */
+    .splitedPanel_text{
+        border-radius: 0 50px 50px 0;
+        width: 300px;
+        height: 300px;
+    }
+    .splitedPanel_firstSpan{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .splitedPanel_secondSpan{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .splitedPanel_secondSpan a{
+        font-size: 13px;
+    }
+    /* button */
+    .splitedPanel_button {
+        font-size: 20px;
+        border-radius: 3em;
+        border: none;
+        font-weight: 700;
+    }
+    .splitedPanel_button:hover{
+        font-size: 20px;
+        border-radius: 3em;
+        border: none;
+        font-weight: 700;
+    }
+    /* first_exampleOfGame */
+    .first_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .first_exampleOfGame_text{
+        padding: 20px;
+    }
+    /* second_exampleOfGame */
+    .second_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfGame_text{
+        padding: 20px;
+        
+    }
+    /* third_exampleOfGame */
+    .third_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfGame_text{
+       padding: 20px;
+    }
+    /* example_of_games Button */
+    .exampleOfGame_button {
+        font-size: 15px;
+    }
+    /* video */
+    .video{
+        padding: 20px;
+    }
+    /* first_exampleOfVideo */
+    .first_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;   
+    }
+    .first_exampleOfVideo_text{
+        padding: 20px;
+    }
+    /* second_exampleOfVideo */
+    .second_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfVideo_text{
+        padding: 20px; 
+    }
+    .third_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfVideo_text{
+       padding: 20px; 
+    }
+    .video{
+        padding: 20px;
+    }
+    /* first_exampleOfBooks */
+    .first_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .first_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* second_exampleOfBooks */
+    .second_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* third_exampleOfBooks */
+    .third_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfBooks_text{
+       padding: 20px;
+    }
+    .footer{
+     font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1152px){
+     /* menu_buttons */
+     .nav_menu_buttons{
+        font-size: 14px;
+    
+    }
+    /* reg inv */
+.modal_buttons{
+    padding: 10px;
+    font-size: 16px;
+}
+.modal_buttons span{
+    padding: 0 15px;
+}
+.button{
+    font-size: 16px;
+    background: #397db9;
+}
+    /* gradePage */
+    .gradePage{
+        width: 100%;
+        height: 300px;
+    }
+    .grade_span_text{
+        font-size: 18px;
+    }
+    .grade_span_k a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_1 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_2 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_3 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_4 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_5 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_6 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_7 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .grade_span_8 a{
+        width: 100px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .PopularGames span:first-child{
+        font-size: 20px;
+    }
+    .PopularVideos span:first-child{
+        font-size: 20px;
+    }
+    .PopularBooks span:first-child{
+        font-size: 20px;
+    }
+    /* splitedPanel_pic*/
+    .splitedPanel_pic{
+        border-radius: 50px 0 0 50px;
+    }
+    .splitedPanel_pic img{
+        width: 300px;
+        height: 300px;
+    }
+    /* splitedPanel_text */
+    .splitedPanel_text{
+        border-radius: 0 50px 50px 0;
+        width: 300px;
+        height: 300px;
+    }
+    .splitedPanel_firstSpan{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .splitedPanel_secondSpan{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .splitedPanel_secondSpan a{
+        font-size: 13px;
+    }
+    /* button */
+    .splitedPanel_button {
+        font-size: 20px;
+    }
+    .splitedPanel_button:hover{
+        font-size: 20px;
+    }
+    /* first_exampleOfGame */
+    .first_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .first_exampleOfGame_text{
+        padding: 20px;
+    }
+    /* second_exampleOfGame */
+    .second_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfGame_text{
+        padding: 20px;
+        
+    }
+    /* third_exampleOfGame */
+    .third_exampleOfGame{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfGame_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfGame_text{
+       padding: 20px;
+    }
+    /* example_of_games Button */
+    .exampleOfGame_button {
+        font-size: 15px;
+    }
+    /* video */
+    .video{
+        padding: 10px;
+    }
+    /* first_exampleOfVideo */
+    .first_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;   
+    }
+    .first_exampleOfVideo_text{
+        padding: 20px;
+    }
+    /* second_exampleOfVideo */
+    .second_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfVideo_text{
+        padding: 20px; 
+    }
+    .third_exampleOfVideo{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfVideo_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfVideo_text{
+       padding: 20px; 
+    }
+    .video{
+        padding:20px;
+        width: 440px;
+        height: 450px;
+    }
+    /* first_exampleOfBooks */
+    .first_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .first_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .first_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* second_exampleOfBooks */
+    .second_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .second_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .second_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* third_exampleOfBooks */
+    .third_exampleOfBooks{
+        width: 192px;
+        margin: 10px;
+    }
+    .third_exampleOfBooks_pic img{
+        width: 192px;
+        height: 120px;
+    }
+    .third_exampleOfBooks_text{
+       padding: 20px;
+    }
+    .footer{
+    padding: 30px;
+     font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    /* menu_buttons */
+    .nav_menu_buttons{
+       font-size: 14px;
+   
+   }
+   .nav_main{
+    font-size: 30px;
+}
+
+.nav_main img{
+    width: 60%;
+    display: flex;
+}
+/* menu_buttons */
+.nav_menu_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+
+}
+   /* reg inv */
+.modal_buttons{
+   padding: 10px;
+   font-size: 13px;
+}
+.modal_buttons span{
+   padding: 0 13px;
+}
+.button{
+   font-size: 13px;
+   background: #397db9;
+}
+   /* gradePage */
+   .gradePage{
+       width: 100%;
+       height: 300px;
+   }
+   .grade_span_text{
+       font-size: 13px;
+   }
+   .grade_span_k a{
+       width: 100px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_1 a{
+       width: 112px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_2 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_3 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_4 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_5 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_6 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_7 a{
+       width: 100px;
+       height: 70px;
+       font-size: 18px;
+   }
+   .grade_span_8 a{
+       width: 100px;
+       height: 70px;
+       font-size: 18px;
+   }
+   .PopularGames span:first-child{
+       font-size: 20px;
+   }
+   .PopularVideos span:first-child{
+       font-size: 20px;
+   }
+   .PopularBooks span:first-child{
+       font-size: 20px;
+   }
+   /* splitedPanel_pic*/
+   .splitedPanel_pic{
+       border-radius: 50px 0 0 50px;
+   }
+   .splitedPanel_pic img{
+       width: 250px;
+       height: 250px;
+   }
+   /* splitedPanel_text */
+   .splitedPanel_text{
+       border-radius: 0 50px 50px 0;
+       width: 250px;
+       height: 250px;
+   }
+   .splitedPanel_firstSpan{
+       font-size: 25px;
+       font-weight: 700;
+   }
+   .splitedPanel_secondSpan{
+       font-size: 15px;
+       font-weight: 400;
+   }
+   .splitedPanel_secondSpan a{
+       font-size: 13px;
+   }
+   /* button */
+   .splitedPanel_button {
+       font-size: 13px;
+   }
+   .splitedPanel_button:hover{
+       font-size: 13px;
+   }
+   /* first_exampleOfGame */
+   .first_exampleOfGame{
+       width: 160px;
+   }
+   .first_exampleOfGame_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .first_exampleOfGame_text{
+       padding: 10px;
+   }
+   /* second_exampleOfGame */
+   .second_exampleOfGame{
+       width: 160px;
+   }
+   .second_exampleOfGame_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .second_exampleOfGame_text{
+       padding: 20px;
+       
+   }
+   /* third_exampleOfGame */
+   .third_exampleOfGame{
+       width: 160px;
+   }
+   .third_exampleOfGame_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .third_exampleOfGame_text{
+      padding: 20px;
+   }
+   /* example_of_games Button */
+   .exampleOfGame_button {
+       font-size: 13px;
+   }
+   /* video */
+   .video{
+       padding: 10px;
+   }
+   /* first_exampleOfVideo */
+   .first_exampleOfVideo{
+       width: 160px;
+       
+   }
+   .first_exampleOfVideo_pic img{
+       width: 160px;
+       height: 100px;   
+   }
+   .first_exampleOfVideo_text{
+       padding: 20px;
+   }
+   /* second_exampleOfVideo */
+   .second_exampleOfVideo{
+       width: 160px;
+   }
+   .second_exampleOfVideo_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .second_exampleOfVideo_text{
+       padding: 20px; 
+   }
+   .third_exampleOfVideo{
+       width: 160px;
+   }
+   .third_exampleOfVideo_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .third_exampleOfVideo_text{
+      padding: 20px; 
+   }
+   .video{
+       padding:20px;
+       width: 440px;
+       height: 450px;
+   }
+   /* example_of_Video Button */
+.exampleOfVideo_button {
+    font-size: 13px;
+}
+.exampleOfVideo_button a{
+    padding: 10px;
+ 
+}
+.exampleOfVideo_button:hover{
+
+    font-size: 13px;
+
+}
+   /* first_exampleOfBooks */
+   .first_exampleOfBooks{
+       width: 160px;
+   }
+   .first_exampleOfBooks_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .first_exampleOfBooks_text{
+       padding: 20px;
+   }
+   /* second_exampleOfBooks */
+   .second_exampleOfBooks{
+       width: 160px;
+   }
+   .second_exampleOfBooks_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .second_exampleOfBooks_text{
+       padding: 20px;
+   }
+   /* third_exampleOfBooks */
+   .third_exampleOfBooks{
+       width: 160px;
+   }
+   .third_exampleOfBooks_pic img{
+       width: 160px;
+       height: 100px;
+   }
+   .third_exampleOfBooks_text{
+      padding: 20px;
+   }
+   .footer{
+   padding: 30px;
+    font-size: 14px;
+   }
+}
+@media only screen and (max-width: 960px){
+    /* reg inv */
+.modal_buttons{
+ padding: 10px;
+ font-size: 13px;
+}
+.modal_buttons span{
+ padding: 0 15px;
+}
+.button{
+ font-size: 16px;
+ background: #397db9;
+}
+.menu{
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+
+}
+.nav_main img{
+  padding: 1px;
+  width: 70%;
+  display: flex;
+}
+
+  /* menu_buttons */
+  .nav_menu_buttons{
+      font-size: 13px;
+  }
+
+.modal_buttons{
+  font-size: 14px;
+}
+.modal_buttons .button{
+  font-size: 14px;
+}
+button{
+  font-size: 14px;
+}
+/* gradePage */
+.gradePage{
+  font-weight: bolder;
+  padding: 20px;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+ .grade_span_text{
+     padding-top: 30px;
+     font-size: 13px;
+ }
+ .grade_span_k a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_1 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_2 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_3 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_4 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_5 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_6 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_7 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .grade_span_8 a{
+     width: 110px;
+     height: 70px;
+     font-size: 16px;
+ }
+ .PopularGames span:first-child{
+     font-size: 20px;
+ }
+ .PopularVideos span:first-child{
+     font-size: 20px;
+ }
+ .PopularBooks span:first-child{
+     font-size: 20px;
+ }
+ /* splitedPanel_pic*/
+ .splitedPanel_pic{
+     border-radius: 50px 0 0 50px;
+ }
+ .splitedPanel_pic img{
+     width: 250px;
+     height: 250px;
+ }
+ /* splitedPanel_text */
+ .splitedPanel_text{
+     border-radius: 0 50px 50px 0;
+     width: 250px;
+     height: 250px;
+ }
+ .splitedPanel_firstSpan{
+     font-size: 25px;
+     font-weight: 700;
+ }
+ .splitedPanel_secondSpan{
+     font-size: 17px;
+     font-weight: 400;
+ }
+ .splitedPanel_secondSpan a{
+     font-size: 17px;
+ }
+ /* button */
+ .splitedPanel_button {
+     font-size: 17px;
+ }
+ .splitedPanel_button:hover{
+     font-size: 17px;
+ }
+ /* first_exampleOfGame */
+ .first_exampleOfGame{
+     width: 120px;
+ }
+ .first_exampleOfGame_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .first_exampleOfGame_text{
+     padding: 10px;
+ }
+ /* second_exampleOfGame */
+ .second_exampleOfGame{
+     width: 120px;
+ }
+ .second_exampleOfGame_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .second_exampleOfGame_text{
+     padding: 10px;
+     
+ }
+ /* third_exampleOfGame */
+ .third_exampleOfGame{
+     width: 120px;
+ }
+ .third_exampleOfGame_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .third_exampleOfGame_text{
+    padding: 10px;
+ }
+ /* example_of_games Button */
+ .exampleOfGame_button {
+     font-size: 12px;
+ }
+ .exampleOfGame_button a{
+  padding: 5px;
+  font-size: 12px;
+
+}
+.exampleOfGame_button:hover{
+  font-size: 12px;
+}
+.exampleOfGame_first{
+  font-size: 11px;
+}
+.exampleOfGame_Second{
+  font-size: 12px;
+}
+.exampleOfGame_Third{
+  font-size: 12px;
+}
+ /* video */
+ .video{
+     padding: 10px;
+ }
+ /* first_exampleOfVideo */
+ .first_exampleOfVideo{
+     width: 120px;
+     
+ }
+ .first_exampleOfVideo_pic img{
+     width: 120px;
+     height: 70px;   
+ }
+ .first_exampleOfVideo_text{
+     padding: 10px;
+ }
+ /* second_exampleOfVideo */
+ .second_exampleOfVideo{
+     width: 120px;
+ }
+ .second_exampleOfVideo_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .second_exampleOfVideo_text{
+     padding: 10px; 
+ }
+ .third_exampleOfVideo{
+     width: 120px;
+ }
+ .third_exampleOfVideo_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .third_exampleOfVideo_text{
+    padding: 10px; 
+ }
+ .video{
+     display: none;
+     padding:20px;
+     width:  20px;
+     height: 20px;
+ }
+ /* example_of_Video Button */
+.exampleOfVideo_button {
+  font-size: 11px;
+}
+.exampleOfVideo_button a{
+  padding: 5px;
+  font-size: 11px;
+
+}
+.exampleOfVideo_button:hover{
+
+  font-size: 11px;
+
+}
+ /* first_exampleOfBooks */
+ .first_exampleOfBooks{
+     width: 120px;
+ }
+ .first_exampleOfBooks_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .first_exampleOfBooks_text{
+     padding: 10px;
+ }
+ /* second_exampleOfBooks */
+ .second_exampleOfBooks{
+     width: 120px;
+ }
+ .second_exampleOfBooks_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .second_exampleOfBooks_text{
+     padding: 10px;
+ }
+ /* third_exampleOfBooks */
+ .third_exampleOfBooks{
+     width: 120px;
+ }
+ .third_exampleOfBooks_pic img{
+     width: 120px;
+     height: 70px;
+ }
+ .third_exampleOfBooks_text{
+    padding: 10px;
+ }
+ .exampleOfBooks_button{
+     font-size: 11px;
+ }
+ .exampleOfBooks_button a{
+  padding : 5px;
+  font-size: 11px;
+}
+ .exampleOfBooks_button:hover{
+  font-size: 11px;
+}
+.exampleOfBooks_vine{
+  font-size: 11px;
+}
+.exampleOfBooks_Desert{
+  font-size: 11px;
+}
+.exampleOfBooks_Penguin{
+  font-size: 11px;
+  
+}
+.PopularVideos_MoreLikeThis{
+  font-size: 11px;
+}
+.PopularGames_MoreLikeThis{
+  font-size: 11px;
+}
+.PopularBooks_MoreLikeThis{
+  font-size: 11px;
+}
+
+ .footer{
+  height: 35vh;
+ padding: 10px;
+  font-size: 12px;
+ }
+}
+@media only screen and (max-width: 768px){
+       /* reg inv */
+ .modal_buttons{
+    padding: 10px;
+    font-size: 13px;
+ }
+ .modal_buttons span{
+    padding: 0 15px;
+ }
+ .button{
+    font-size: 16px;
+    background: #397db9;
+ }
+ .menu{
+     width: 100%;
+     font-size: 13px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: row;
+     position: fixed;
+ 
+ }
+ .nav_main img{
+     padding: 1px;
+     width: 70%;
+     display: flex;
+ }
+ 
+     /* menu_buttons */
+     .nav_menu_buttons{
+         font-size: 13px;
+     }
+
+ .modal_buttons{
+     font-size: 14px;
+ }
+ .modal_buttons .button{
+     font-size: 14px;
+ }
+ button{
+     font-size: 14px;
+ }
+  /* gradePage */
+ .gradePage{
+     font-weight: bolder;
+     padding: 20px;
+     width: 100%;
+     height: 1200px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+ }
+    .grade_span_text{
+        padding-top: 30px;
+        font-size: 13px;
+    }
+    .grade_span_k a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_1 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_2 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_3 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_4 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_5 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_6 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_7 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_8 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .PopularGames span:first-child{
+        font-size: 20px;
+    }
+    .PopularVideos span:first-child{
+        font-size: 20px;
+    }
+    .PopularBooks span:first-child{
+        font-size: 20px;
+    }
+    /* splitedPanel_pic*/
+    .splitedPanel_pic{
+        border-radius: 50px 0 0 50px;
+    }
+    .splitedPanel_pic img{
+        width: 250px;
+        height: 250px;
+    }
+    /* splitedPanel_text */
+    .splitedPanel_text{
+        border-radius: 0 50px 50px 0;
+        width: 250px;
+        height: 250px;
+    }
+    .splitedPanel_firstSpan{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .splitedPanel_secondSpan{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .splitedPanel_secondSpan a{
+        font-size: 17px;
+    }
+    /* button */
+    .splitedPanel_button {
+        font-size: 17px;
+    }
+    .splitedPanel_button:hover{
+        font-size: 17px;
+    }
+    /* first_exampleOfGame */
+    .first_exampleOfGame{
+        width: 120px;
+    }
+    .first_exampleOfGame_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .first_exampleOfGame_text{
+        padding: 10px;
+    }
+    /* second_exampleOfGame */
+    .second_exampleOfGame{
+        width: 120px;
+    }
+    .second_exampleOfGame_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .second_exampleOfGame_text{
+        padding: 10px;
+        
+    }
+    /* third_exampleOfGame */
+    .third_exampleOfGame{
+        width: 120px;
+    }
+    .third_exampleOfGame_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .third_exampleOfGame_text{
+       padding: 10px;
+    }
+    /* example_of_games Button */
+    .exampleOfGame_button {
+        font-size: 12px;
+    }
+    .exampleOfGame_button a{
+     padding: 5px;
+     font-size: 12px;
+  
+ }
+ .exampleOfGame_button:hover{
+     font-size: 12px;
+ }
+ .exampleOfGame_first{
+     font-size: 11px;
+ }
+ .exampleOfGame_Second{
+     font-size: 12px;
+ }
+ .exampleOfGame_Third{
+     font-size: 12px;
+ }
+    /* video */
+    .video{
+        padding: 10px;
+    }
+    /* first_exampleOfVideo */
+    .first_exampleOfVideo{
+        width: 120px;
+        
+    }
+    .first_exampleOfVideo_pic img{
+        width: 120px;
+        height: 70px;   
+    }
+    .first_exampleOfVideo_text{
+        padding: 10px;
+    }
+    /* second_exampleOfVideo */
+    .second_exampleOfVideo{
+        width: 120px;
+    }
+    .second_exampleOfVideo_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .second_exampleOfVideo_text{
+        padding: 10px; 
+    }
+    .third_exampleOfVideo{
+        width: 120px;
+    }
+    .third_exampleOfVideo_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .third_exampleOfVideo_text{
+       padding: 10px; 
+    }
+    .video{
+        display: none;
+        padding:20px;
+        width:  20px;
+        height: 20px;
+    }
+    /* example_of_Video Button */
+ .exampleOfVideo_button {
+     font-size: 11px;
+ }
+ .exampleOfVideo_button a{
+     padding: 5px;
+     font-size: 11px;
+  
+ }
+ .exampleOfVideo_button:hover{
+ 
+     font-size: 11px;
+ 
+ }
+    /* first_exampleOfBooks */
+    .first_exampleOfBooks{
+        width: 120px;
+    }
+    .first_exampleOfBooks_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .first_exampleOfBooks_text{
+        padding: 10px;
+    }
+    /* second_exampleOfBooks */
+    .second_exampleOfBooks{
+        width: 120px;
+    }
+    .second_exampleOfBooks_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .second_exampleOfBooks_text{
+        padding: 10px;
+    }
+    /* third_exampleOfBooks */
+    .third_exampleOfBooks{
+        width: 120px;
+    }
+    .third_exampleOfBooks_pic img{
+        width: 120px;
+        height: 70px;
+    }
+    .third_exampleOfBooks_text{
+       padding: 10px;
+    }
+    .exampleOfBooks_button{
+        font-size: 11px;
+    }
+    .exampleOfBooks_button a{
+     padding : 5px;
+     font-size: 11px;
+ }
+    .exampleOfBooks_button:hover{
+     font-size: 11px;
+ }
+ .exampleOfBooks_vine{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Desert{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Penguin{
+     font-size: 11px;
+     
+ }
+ .PopularVideos_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularGames_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularBooks_MoreLikeThis{
+     font-size: 11px;
+ }
+
+    .footer{
+     height: 35vh;
+    padding: 10px;
+     font-size: 12px;
+    }
+ }
+ @media only screen and (max-width: 700px){
+
+    /* reg inv */
+ .modal_buttons{
+    padding: 10px;
+    font-size: 16px;
+ }
+ .modal_buttons span{
+    padding: 0 15px;
+ }
+ .button{
+    font-size: 16px;
+    background: #397db9;
+ }
+ .menu{
+     width: 100%;
+     padding: 0px;
+     font-size: 16px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+     position: fixed;
+     font-weight: bold;
+ 
+ }
+ .nav_main img{
+     width: 70%;
+     display: flex;
+ }
+ 
+     /* menu_buttons */
+     .nav_menu_buttons{
+         font-size: 20px;
+     }
+ .nav_games{
+     display: none;
+ }
+ .nav_reading{
+     display: none;
+ }
+ .nav_videos{
+     display: none;
+ }
+ .nav_Zone{
+     display: none;
+ }
+ .modal_buttons{
+     font-size: 11px;
+ }
+ .modal_buttons .button{
+     font-size: 11px;
+ }
+ button{
+     font-size: 11px;
+ }
+  /* gradePage */
+ .gradePage{
+     font-weight: bolder;
+     padding: 20px;
+     width: 100%;
+     height: 900px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+ }
+    .grade_span_text{
+        padding-top: 30px;
+        font-size: 13px;
+    }
+    .grade_span_k a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_1 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_2 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_3 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_4 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_5 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_6 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_7 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_8 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .PopularGames span:first-child{
+        font-size: 15px;
+    }
+    .PopularVideos span:first-child{
+        font-size: 15px;
+    }
+    .PopularBooks span:first-child{
+        font-size: 15px;
+    }
+    /* splitedPanel_pic*/
+    .splitedPanel_pic{
+        border-radius: 50px 0 0 50px;
+    }
+    .splitedPanel_pic img{
+        width: 250px;
+        height: 250px;
+    }
+    /* splitedPanel_text */
+    .splitedPanel_text{
+        border-radius: 0 50px 50px 0;
+        width: 250px;
+        height: 250px;
+    }
+    .splitedPanel_firstSpan{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .splitedPanel_secondSpan{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .splitedPanel_secondSpan a{
+        font-size: 13px;
+    }
+    /* button */
+    .splitedPanel_button {
+        font-size: 13px;
+    }
+    .splitedPanel_button:hover{
+        font-size: 13px;
+    }
+    /* first_exampleOfGame */
+    .first_exampleOfGame{
+        width: 80px;
+    }
+    .first_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .first_exampleOfGame_text{
+        padding: 10px;
+    }
+    /* second_exampleOfGame */
+    .second_exampleOfGame{
+        width: 80px;
+    }
+    .second_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfGame_text{
+        padding: 20px;
+        
+    }
+    /* third_exampleOfGame */
+    .third_exampleOfGame{
+        width: 80px;
+    }
+    .third_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfGame_text{
+       padding: 20px;
+    }
+    /* example_of_games Button */
+    .exampleOfGame_button {
+        font-size: 8px;
+    }
+    .exampleOfGame_button a{
+     padding: 5px;
+     font-size: 8px;
+  
+ }
+ .exampleOfGame_button:hover{
+     font-size: 8px;
+ }
+ .exampleOfGame_first{
+     font-size: 11px;
+ }
+ .exampleOfGame_Second{
+     font-size: 11px;
+ }
+ .exampleOfGame_Third{
+     font-size: 11px;
+ }
+    /* video */
+    .video{
+        padding: 10px;
+    }
+    /* first_exampleOfVideo */
+    .first_exampleOfVideo{
+        width: 80px;
+        
+    }
+    .first_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;   
+    }
+    .first_exampleOfVideo_text{
+        padding: 20px;
+    }
+    /* second_exampleOfVideo */
+    .second_exampleOfVideo{
+        width: 80px;
+    }
+    .second_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfVideo_text{
+        padding: 20px; 
+    }
+    .third_exampleOfVideo{
+        width: 80px;
+    }
+    .third_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfVideo_text{
+       padding: 20px; 
+    }
+    .video{
+        display: none;
+        padding:20px;
+        width:  20px;
+        height: 20px;
+    }
+    /* example_of_Video Button */
+ .exampleOfVideo_button {
+     font-size: 8px;
+ }
+ .exampleOfVideo_button a{
+     padding: 5px;
+  
+ }
+ .exampleOfVideo_button:hover{
+ 
+     font-size: 8px;
+ 
+ }
+    /* first_exampleOfBooks */
+    .first_exampleOfBooks{
+        width: 80px;
+    }
+    .first_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .first_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* second_exampleOfBooks */
+    .second_exampleOfBooks{
+        width: 80px;
+    }
+    .second_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* third_exampleOfBooks */
+    .third_exampleOfBooks{
+        width: 80px;
+    }
+    .third_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfBooks_text{
+       padding: 20px;
+    }
+    .exampleOfBooks_button{
+        font-size: 8px;
+    }
+    .exampleOfBooks_button a{
+     padding : 5px;
+     font-size: 8px;
+ }
+    .exampleOfBooks_button:hover{
+     font-size: 8px;
+ }
+ .exampleOfBooks_vine{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Desert{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Penguin{
+     font-size: 11px;
+     
+ }
+ .PopularVideos_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularGames_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularBooks_MoreLikeThis{
+     font-size: 11px;
+ }
+ hr{
+     margin-left: 500%;
+     margin-right: 5% ;
+ }
+    .footer{
+     height: 65vh;
+    padding: 10px;
+     font-size: 12px;
+    }
+ }
+@media only screen and (max-width: 414px){
+
+   /* reg inv */
+.modal_buttons{
+   padding: 10px;
+   font-size: 16px;
+}
+.modal_buttons span{
+   padding: 0 15px;
+}
+.button{
+   font-size: 16px;
+   background: #397db9;
+}
+.menu{
+    width: 100%;
+    padding: 0px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    font-weight: bold;
+
+}
+.nav_main img{
+    width: 70%;
+    display: flex;
+}
+
+    /* menu_buttons */
+    .nav_menu_buttons{
+        font-size: 20px;
+    }
+.nav_games{
+    display: none;
+}
+.nav_reading{
+    display: none;
+}
+.nav_videos{
+    display: none;
+}
+.nav_Zone{
+    display: none;
+}
+.modal_buttons{
+    font-size: 11px;
+}
+.modal_buttons .button{
+    font-size: 11px;
+}
+button{
+    font-size: 11px;
+}
+ /* gradePage */
+.gradePage{
+    font-weight: bolder;
+    padding: 20px;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+   .grade_span_text{
+       padding-top: 30px;
+       font-size: 13px;
+   }
+   .grade_span_k a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_1 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_2 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_3 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_4 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_5 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_6 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_7 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .grade_span_8 a{
+       width: 110px;
+       height: 70px;
+       font-size: 16px;
+   }
+   .PopularGames span:first-child{
+       font-size: 15px;
+   }
+   .PopularVideos span:first-child{
+       font-size: 15px;
+   }
+   .PopularBooks span:first-child{
+       font-size: 15px;
+   }
+   /* splitedPanel_pic*/
+   .splitedPanel_pic{
+       border-radius: 50px 0 0 50px;
+   }
+   .splitedPanel_pic img{
+       width: 250px;
+       height: 250px;
+   }
+   /* splitedPanel_text */
+   .splitedPanel_text{
+       border-radius: 0 50px 50px 0;
+       width: 250px;
+       height: 250px;
+   }
+   .splitedPanel_firstSpan{
+       font-size: 25px;
+       font-weight: 700;
+   }
+   .splitedPanel_secondSpan{
+       font-size: 15px;
+       font-weight: 400;
+   }
+   .splitedPanel_secondSpan a{
+       font-size: 13px;
+   }
+   /* button */
+   .splitedPanel_button {
+       font-size: 13px;
+   }
+   .splitedPanel_button:hover{
+       font-size: 13px;
+   }
+   /* first_exampleOfGame */
+   .first_exampleOfGame{
+       width: 80px;
+   }
+   .first_exampleOfGame_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .first_exampleOfGame_text{
+       padding: 10px;
+   }
+   /* second_exampleOfGame */
+   .second_exampleOfGame{
+       width: 80px;
+   }
+   .second_exampleOfGame_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .second_exampleOfGame_text{
+       padding: 20px;
+       
+   }
+   /* third_exampleOfGame */
+   .third_exampleOfGame{
+       width: 80px;
+   }
+   .third_exampleOfGame_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .third_exampleOfGame_text{
+      padding: 20px;
+   }
+   /* example_of_games Button */
+   .exampleOfGame_button {
+       font-size: 8px;
+   }
+   .exampleOfGame_button a{
+    padding: 5px;
+    font-size: 8px;
+ 
+}
+.exampleOfGame_button:hover{
+    font-size: 8px;
+}
+.exampleOfGame_first{
+    font-size: 11px;
+}
+.exampleOfGame_Second{
+    font-size: 11px;
+}
+.exampleOfGame_Third{
+    font-size: 11px;
+}
+   /* video */
+   .video{
+       padding: 10px;
+   }
+   /* first_exampleOfVideo */
+   .first_exampleOfVideo{
+       width: 80px;
+       
+   }
+   .first_exampleOfVideo_pic img{
+       width: 80px;
+       height: 50px;   
+   }
+   .first_exampleOfVideo_text{
+       padding: 20px;
+   }
+   /* second_exampleOfVideo */
+   .second_exampleOfVideo{
+       width: 80px;
+   }
+   .second_exampleOfVideo_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .second_exampleOfVideo_text{
+       padding: 20px; 
+   }
+   .third_exampleOfVideo{
+       width: 80px;
+   }
+   .third_exampleOfVideo_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .third_exampleOfVideo_text{
+      padding: 20px; 
+   }
+   .video{
+       display: none;
+       padding:20px;
+       width:  20px;
+       height: 20px;
+   }
+   /* example_of_Video Button */
+.exampleOfVideo_button {
+    font-size: 8px;
+}
+.exampleOfVideo_button a{
+    padding: 5px;
+ 
+}
+.exampleOfVideo_button:hover{
+
+    font-size: 8px;
+
+}
+   /* first_exampleOfBooks */
+   .first_exampleOfBooks{
+       width: 80px;
+   }
+   .first_exampleOfBooks_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .first_exampleOfBooks_text{
+       padding: 20px;
+   }
+   /* second_exampleOfBooks */
+   .second_exampleOfBooks{
+       width: 80px;
+   }
+   .second_exampleOfBooks_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .second_exampleOfBooks_text{
+       padding: 20px;
+   }
+   /* third_exampleOfBooks */
+   .third_exampleOfBooks{
+       width: 80px;
+   }
+   .third_exampleOfBooks_pic img{
+       width: 80px;
+       height: 50px;
+   }
+   .third_exampleOfBooks_text{
+      padding: 20px;
+   }
+   .exampleOfBooks_button{
+       font-size: 8px;
+   }
+   .exampleOfBooks_button a{
+    padding : 5px;
+    font-size: 8px;
+}
+   .exampleOfBooks_button:hover{
+    font-size: 8px;
+}
+.exampleOfBooks_vine{
+    font-size: 11px;
+}
+.exampleOfBooks_Desert{
+    font-size: 11px;
+}
+.exampleOfBooks_Penguin{
+    font-size: 11px;
+    
+}
+.PopularVideos_MoreLikeThis{
+    font-size: 11px;
+}
+.PopularGames_MoreLikeThis{
+    font-size: 11px;
+}
+.PopularBooks_MoreLikeThis{
+    font-size: 11px;
+}
+hr{
+    margin-left: 500%;
+    margin-right: 5% ;
+}
+   .footer{
+    height: 65vh;
+   padding: 10px;
+    font-size: 12px;
+   }
+}
+@media only screen and (max-width: 320px){
+
+    /* reg inv */
+ .modal_buttons{
+    padding: 10px;
+    font-size: 13px;
+ }
+ .modal_buttons span{
+    padding: 0 15px;
+ }
+ .button{
+    font-size: 16px;
+    background: #397db9;
+ }
+ .menu{
+     width: 100%;
+     font-size: 13px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: row;
+     position: fixed;
+ 
+ }
+ .nav_main img{
+     width: 50%;
+     display: flex;
+ }
+ 
+     /* menu_buttons */
+     .nav_menu_buttons{
+         font-size: 13px;
+     }
+ .nav_games{
+     display: none;
+ }
+ .nav_reading{
+     display: none;
+ }
+ .nav_videos{
+     display: none;
+ }
+ .nav_Zone{
+     display: none;
+ }
+ .modal_buttons{
+     font-size: 8px;
+ }
+ .modal_buttons .button{
+     font-size:8px;
+ }
+ button{
+     font-size: 8px;
+ }
+  /* gradePage */
+ .gradePage{
+     font-weight: bolder;
+     padding: 20px;
+     width: 100%;
+     height: 900px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+ }
+    .grade_span_text{
+        padding-top: 30px;
+        font-size: 13px;
+    }
+    .grade_span_k a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_1 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_2 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_3 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_4 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_5 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_6 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_7 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .grade_span_8 a{
+        width: 110px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .PopularGames span:first-child{
+        font-size: 15px;
+    }
+    .PopularVideos span:first-child{
+        font-size: 15px;
+    }
+    .PopularBooks span:first-child{
+        font-size: 15px;
+    }
+    /* splitedPanel_pic*/
+    .splitedPanel_pic{
+        border-radius: 50px 0 0 50px;
+    }
+    .splitedPanel_pic img{
+        width: 150px;
+        height: 150px;
+    }
+    /* splitedPanel_text */
+    .splitedPanel_text{
+        border-radius: 0 50px 50px 0;
+        width: 150px;
+        height: 150px;
+    }
+    .splitedPanel_firstSpan{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .splitedPanel_secondSpan{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .splitedPanel_secondSpan a{
+        font-size: 13px;
+    }
+    /* button */
+    .splitedPanel_button {
+        font-size: 8px;
+    }
+    .splitedPanel_button:hover{
+        font-size: 8px;
+    }
+    /* first_exampleOfGame */
+    .first_exampleOfGame{
+        width: 80px;
+    }
+    .first_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .first_exampleOfGame_text{
+        padding: 10px;
+    }
+    /* second_exampleOfGame */
+    .second_exampleOfGame{
+        width: 80px;
+    }
+    .second_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfGame_text{
+        padding: 20px;
+        
+    }
+    /* third_exampleOfGame */
+    .third_exampleOfGame{
+        width: 80px;
+    }
+    .third_exampleOfGame_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfGame_text{
+       padding: 20px;
+    }
+    /* example_of_games Button */
+    .exampleOfGame_button {
+        font-size: 8px;
+    }
+    .exampleOfGame_button a{
+     padding: 5px;
+     font-size: 8px;
+  
+ }
+ .exampleOfGame_button:hover{
+     font-size: 8px;
+ }
+ .exampleOfGame_first{
+     font-size: 11px;
+ }
+ .exampleOfGame_Second{
+     font-size: 11px;
+ }
+ .exampleOfGame_Third{
+     font-size: 11px;
+ }
+    /* video */
+    .video{
+        padding: 10px;
+    }
+    /* first_exampleOfVideo */
+    .first_exampleOfVideo{
+        width: 80px;
+        
+    }
+    .first_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;   
+    }
+    .first_exampleOfVideo_text{
+        padding: 20px;
+    }
+    /* second_exampleOfVideo */
+    .second_exampleOfVideo{
+        width: 80px;
+    }
+    .second_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfVideo_text{
+        padding: 20px; 
+    }
+    .third_exampleOfVideo{
+        width: 80px;
+    }
+    .third_exampleOfVideo_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfVideo_text{
+       padding: 20px; 
+    }
+    .video{
+        display: none;
+        padding:20px;
+        width:  20px;
+        height: 20px;
+    }
+    /* example_of_Video Button */
+ .exampleOfVideo_button {
+     font-size: 8px;
+ }
+ .exampleOfVideo_button a{
+     padding: 5px;
+  
+ }
+ .exampleOfVideo_button:hover{
+ 
+     font-size: 8px;
+ 
+ }
+    /* first_exampleOfBooks */
+    .first_exampleOfBooks{
+        width: 80px;
+    }
+    .first_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .first_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* second_exampleOfBooks */
+    .second_exampleOfBooks{
+        width: 80px;
+    }
+    .second_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .second_exampleOfBooks_text{
+        padding: 20px;
+    }
+    /* third_exampleOfBooks */
+    .third_exampleOfBooks{
+        width: 80px;
+    }
+    .third_exampleOfBooks_pic img{
+        width: 80px;
+        height: 50px;
+    }
+    .third_exampleOfBooks_text{
+       padding: 20px;
+    }
+    .exampleOfBooks_button{
+        font-size: 8px;
+    }
+    .exampleOfBooks_button a{
+     padding : 5px;
+     font-size: 8px;
+ }
+    .exampleOfBooks_button:hover{
+     font-size: 8px;
+ }
+ .exampleOfBooks_vine{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Desert{
+     font-size: 11px;
+ }
+ .exampleOfBooks_Penguin{
+     font-size: 11px;
+     
+ }
+ .PopularVideos_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularGames_MoreLikeThis{
+     font-size: 11px;
+ }
+ .PopularBooks_MoreLikeThis{
+     font-size: 11px;
+ }
+
+    .footer{
+     height: 35vh;
+    padding: 10px;
+     font-size: 12px;
+    }
+ }
+ 

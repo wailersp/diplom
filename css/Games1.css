@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* 1gameExample */
+.FirstImagesExample{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7;
+}
+.FirstGamesImgExample{
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+/* 1gametext */
+.GamesFirstExampleOfText {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #66a2cc;
+    background-color: #f0ece7;  
+}
+
+.none{
+    display:none;
+}
+@media only screen and (max-width: 1600px){
+.FirstGamesImgExample{
+width: 200px;
+height: 200px;
+margin: 10px;
+}
+/* 1gametext */
+.GamesFirstExampleOfText {
+    font-size: 50px;
+    font-weight: 600;
+  
+}
+
+}
+/*invise for js*/
+.invise{
+    display: none;
+    transition: 1s all;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* 1gameExample */
+.SixImagesExample{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7;
+}
+.SixGamesImgExample{
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+.SixGamesImgExample:first-child{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    }
+/* 1gametext */
+.GamesSixExampleOfText {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #ddd64e;
+    background-color: #f0ece7;  
+}
+
+.none{
+    display:none;
+}
+
+/*invise for js*/
+.invise{
+    display: none;
+    transition: 1s all;
+}

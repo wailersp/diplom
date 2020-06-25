@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/VideoMain.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/videosAdaptiv.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
@@ -54,7 +55,7 @@
 
                 <div class="nav_fa_Zone">
                     <a href="documents.html">
-                        <span class="fa_Zone"><i class="fas fa-calculator"></i></span>
+                        <span class="fa_Zone"><i class="fa fa-file" aria-hidden="true"></i></span>
                         <span class="nav_Zone">ФАЙЛОВОЕ ХРАНИЛИЩЕ</span>
                     </a>
                 </div>
@@ -75,7 +76,93 @@
             <span class="grade_span_7"><a href="#">7</a></span>
             <span class="grade_span_8"><a href="#">8</a></span>
         </div>
-        
+        <!-- instruct -->
+        <div class="InstructionVideo invise ">
+            <div class="video">
+                <iframe width="700" height="415" src="https://www.youtube.com/embed/urdxj6jpeYc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="goBackInst invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 1 -->
+        <div class="FirstVideo invise  ">
+            <div class="video">
+                <video controls>
+                    <source
+                        src="vid/6/Звуки животных для детей. Развивающий мультик - Как говорят домашние животные.mp4"
+                        type="video/mp4">
+                        <!-- <source src="vid/6/Звуки животных для детей. Развивающий мультик - Как говорят домашние животные.mp4"
+                        type="video/ogg"> -->
+                </video>
+            </div>
+            <div class="goBack invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 2 -->
+        <div class="SecondVideo invise ">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Изучаем звуки животных Африки для детей.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackTo invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 3 -->
+        <div class="ThirdVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Тесты для детей.  Что лишнее Развивающее видео.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToThree invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 4 -->
+        <div class="FourVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Дикие животные для детей. Развивающее видео.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToFour invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 5 -->
+        <div class="FiveVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Изучаем домашних животных для детей. Обучающее видео с голосами животных.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToFive invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 6 -->
+        <div class="SixVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Домашние животные для детей. Изучаем домашних животных.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToSix invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 7 -->
+        <div class="SevenVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Изучаем домашних животных для детей. Обучающее видео с голосами животных (1).mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToSeven invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
+        <!-- 8 -->
+        <div class="EightVideo invise">
+            <div class="video">
+                <video controls>
+                    <source src="vid/6/Дикие животные. Животные леса для детей от 1 года.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="goBackToEight invise"><button>ВЕРНУТЬСЯ К ВЫБОРУ ВИДЕО</button></div>
+        </div>
         <!-- empty -->
         <div class="empty_panel">
         </div>
@@ -95,12 +182,6 @@
         </div>
         <div class="empty_panel">
         </div>
-        <div class="empty_panel">
-        </div>
-        <div class="empty_panel">
-        </div>
-        <div class="empty_panel">
-        </div>   
         <div class="empty_panel">
         </div>
         <div class="empty_panel">
@@ -152,17 +233,18 @@
         </div>
     </div>
 
-
-        <!-- скрипт -->
-        <script type="text/javascript">
-            document.ondragstart = noselect;
-            // запрет на перетаскивание
-            document.onselectstart = noselect;
-            // запрет на выделение элементов страницы
-            document.oncontextmenu = noselect;
-            // запрет на выведение контекстного меню
-            function noselect() { return false; }
-        </script>
+    <!-- script -->
+    <script src="scriptVideo.js"></script>
+    <!-- скрипт -->
+    <!-- <script type="text/javascript">
+        document.ondragstart = noselect;
+        // запрет на перетаскивание
+        document.onselectstart = noselect;
+        // запрет на выделение элементов страницы
+        document.oncontextmenu = noselect;
+        // запрет на выведение контекстного меню
+        function noselect() { return false; }
+    </script> -->
 </body>
 
 </html>

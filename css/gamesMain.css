@@ -137,7 +137,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #dd89b7;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -156,7 +156,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #66a2cc;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -175,7 +175,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #fcbe55;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -193,7 +193,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #aabe53;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -212,7 +212,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #f48f4a;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -230,7 +230,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #a585be;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -249,7 +249,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ddd64e;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -267,7 +267,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ff5c5c;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -285,7 +285,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #7ab3b2;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -658,6 +658,7 @@ body {
 }
 
 .video{
+    background-color: #f0ece7;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -838,12 +839,771 @@ body {
     color: lightgray;
 }
 
+/* game */
 
 
-/* goBack */
-.goBack{
+/* splider */
+.slider{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startFirstGame{
+    display: flex;
+
+    
+}
+/* splitedPanel_pic*/
+.slider_pic{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.slider_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.slider_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.slider_text img{
+    width: 150px;
+    height: 50px;
+}
+.slider_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.slider_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.slider_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.slider_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.slider_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.slider_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* 2игра */
+
+
+/* splider */
+.WhereIsCar{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startSecondGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsCar_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsCar_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsCar_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsCar_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsCar_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsCar_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsCar_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsCar_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsCar_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsCar_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+
+/* 3 game */
+
+/* splider */
+.WhereIsButterfly{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startThirdGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsButterfly_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsButterfly_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsButterfly_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsButterfly_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsButterfly_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsButterfly_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsButterFly_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsButterFly_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsButterfly_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsButterfly_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* 4 game */
+
+/* splider */
+.WhereIsTreeList{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startFourGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsTreeList_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsTreeList_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsTreeList_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsTreeList_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsTreeList_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsTreeList_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsTreeList_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsTreeList_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsTreeList_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsTreeList_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* 5 game */
+
+/* splider */
+.WhereIsErudit{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startFiveGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsErudit_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsErudit_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsErudit_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsErudit_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsErudit_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsErudit_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsErudit_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsErudit_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsErudit_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsErudit_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+
+/* 6 game */
+
+/* splider */
+.WhereIsThisItem{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startSixGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsThisItem_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsThisItem_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsThisItem_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsThisItem_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsThisItem_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsThisItem_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsThisItem_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsThisItem_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsThisItem_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsThisItem_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* 7 game */
+
+/* splider */
+.WhereIsDomik {
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startSevenGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsDomik_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsDomik_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsDomik_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsDomik_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsDomik_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsDomik_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsDomik_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsDomik_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsDomik_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsDomik_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* 8 game */
+
+/* splider */
+.WhereIsDeti {
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7
+    
+}
+.startEightGame{
+    display: flex;
+}
+/* splitedPanel_pic*/
+.WhereIsDeti_pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff9f0;
+}
+
+.WhereIsDeti_pic img{
+    width: 300px;
+    height: 300px;
+}
+/* splitedPanel_text */
+.WhereIsDeti_text{
+    border-radius: 0 50px 50px 0;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.WhereIsDeti_text img{
+    width: 150px;
+    height: 50px;
+}
+.WhereIsDeti_firstSpan{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsDeti_secondSpan{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.WhereIsDeti_secondSpan a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a585be;
+    text-decoration: none;
+
+}
+/* button */
+.WhereIsDeti_button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#3fe8da;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 2s;
+    text-decoration: none;
+}
+.WhereIsDeti_button a{
+    padding: 10px;
+    color: #2a2928;
+    text-decoration: none;
+}
+.WhereIsDeti_button:hover{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color:#397db9;
+    color: #2a2928;
+    font-size: 30px;
+    border-radius: 3em;
+    border: none;
+    font-weight: 700;
+    transition: all 1s ;
+}
+/* goBack */
+.goBack{
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
 }
 
 .goBack button{
@@ -852,111 +1612,351 @@ body {
     background: #397db9;
     color: white;
     border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack */
+.goBackTo {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.goBackTo button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack */
+.moveBack {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBack button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBackTreeList */
+.moveBackTreeList {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBackTreeList button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBackErudit */
+.moveBackErudit  {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBackErudit button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* items */
+.moveBackThisItem  {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBackThisItem button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* Domik*/
+.moveBackDomik {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBackDomik  button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* Deti*/
+.moveBackDeti{
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.moveBackDeti button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
     padding: 2px 8px;
     font-family: 'Ubuntu Condensed', sans-serif;
     padding: 20px;
     
 }
 
+/* к */
+.goBackInst {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackInst button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack1 */
+.goBackToFirstGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFirstGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack2 */
+.goBackToSecondGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSecondGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack3 */
+.goBackToThirdGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToThirdGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack4 */
+.goBackToFourGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFourGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack5 */
+.goBackToFiveGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFiveGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack6 */
+.goBackToSixGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSixGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack7 */
+.goBackToSevenGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSevenGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* goBack8 */
+.goBackToEightGame {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToEightGame button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
 /*invise for js*/
 .invise{
     display: none;
     transition: 1s all;
 }
-
-/* слайдер-игра 1 */
-.slider {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .slider__wrapper {
-    display: flex;
-    transition: transform 0.6s ease;
-  }
-
-  .slider__item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-
-  @media only screen and (max-width: 1600px) {
-      
-  }
-  @media only screen and (max-width: 1366px) {
-      
-}
-@media only screen and (max-width: 1280px) {
-      
-}
-@media only screen and (max-width: 768px) {
-      
-}
-
-  @media (min-width: 980px) {
-    .slider__item {
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-  }
-
-  .slider__control {
-    position: absolute;
-    top: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    color: #fff;
-    text-align: center;
-    opacity: 0.5;
-    height: 50px;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, .5);
-  }
-
-  .slider__control:hover,
-  .slider__control:focus {
-    color: #fff;
-    text-decoration: none;
-    outline: 0;
-    opacity: .9;
-  }
-
-  .slider__control_left {
-    left: 0;
-  }
-
-  .slider__control_right {
-    right: 0;
-  }
-
-  .slider__control::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-  }
-
-  .slider__control_left::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  }
-
-  .slider__control_right::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  }
-
-  .slider__item>div {
-    line-height: 250px;
-    font-size: 100px;
-    text-align: center;
-  }
-  .slider__item>img {
-      line-height: 250px;
-      text-align: center;
-  }
-  
-

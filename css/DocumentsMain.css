@@ -131,7 +131,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #dd89b7;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -150,7 +150,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #66a2cc;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -169,7 +169,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #fcbe55;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -187,7 +187,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377;
     color: #aabe53;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -206,7 +206,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #f48f4a;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -224,7 +224,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #a585be;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -243,7 +243,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ddd64e;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -261,7 +261,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #ff5c5c;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -279,7 +279,7 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background-color: black;
+    background-color: #4f2377; 
     color: #7ab3b2;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -661,6 +661,7 @@
 }
 
 .video{
+    background-color: #f0ece7;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -838,6 +839,427 @@
 }
 .privacyPolice li {
     color: lightgray;
+}
+/* пример */
+.FirstDoc {
+    background-color :#f0ece7 ;
+}
+.SecondDoc {
+    background-color :#f0ece7 ;
+}
+.ThirdDoc {
+    background-color :#f0ece7 ;
+}
+.FourDoc {
+    background-color :#f0ece7 ;
+}
+.FiveDoc {
+    background-color :#f0ece7 ;
+}
+.SixDoc {
+    background-color :#f0ece7 ;
+}
+.SevenDoc {
+    background-color :#f0ece7 ;
+}
+.EightDoc {
+    background-color :#f0ece7 ;
+}
+/* 1 */
+/* оформление рамки блока */
+.FirstBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.FirstBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#66a2cc;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.FirstBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #485b68;
+   font-size: 20px;
+ }
+ /* 2 */
+/* оформление рамки блока */
+.SecondBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.SecondBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#fcbe55;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.SecondBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #746246;
+   font-size: 20px;
+ }
+/* 3 */
+/* оформление рамки блока */
+.ThirdBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.ThirdBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#aabe53;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.ThirdBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #5a5e48;
+   font-size: 20px;
+ }
+ /* 4 */
+ /* оформление рамки блока */
+.FourBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.FourBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#f48f4a;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.FourBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #745948;
+   font-size: 20px;
+ }
+  /* 5 */
+ /* оформление рамки блока */
+.FiveBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.FiveBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#a585be;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.FiveBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #573e69;
+   font-size: 20px;
+ }
+   /* 6 */
+ /* оформление рамки блока */
+.SixBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.SixBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#ddd64e;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.SixBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #858258;
+   font-size: 20px;
+ }
+    /* 7 */
+ /* оформление рамки блока */
+.SevenBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.SevenBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#ff5c5c;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.SevenBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #684040;
+   font-size: 20px;
+ }
+     /* 8 */
+ /* оформление рамки блока */
+.EightBlogInfo {
+    background: #fffdf7;
+   border: 1px solid #000000;
+   padding: 3px 5px 3px 30px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 5px;
+  box-shadow: 12px 12px 12px  12px #ccc3b3;
+}
+/* оформление заголовка блока */
+.EightBlogInfo-head {
+    font-size: 50px;
+    font-weight: bolder;
+    color:#7ab3b2;
+   margin: 0 0 5px 0;
+}
+/* оформление текста блока */
+.EightBlogInfo-txt {
+    font-weight: bolder;
+    line-height: 40px;
+    color: #476b6b;
+   font-size: 20px;
+ }
+/* 1 */
+.goBack {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBack button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 2 */
+.goBackTo {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackTo button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 3 */
+.goBackToThree {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToThree button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 4 */
+.goBackToFour {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFour button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 5 */
+.goBackToFive {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFive button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 6 */
+.goBackToSix {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSix button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 7 */
+.goBackToSeven {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSeven button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 8 */
+.goBackToEight {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToEight button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* к */
+.goBackInst {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackInst button{
+    cursor: pointer;
+    font-size: 20px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
 }
 
 /*invise for js*/

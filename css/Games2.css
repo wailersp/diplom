@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* 1gameExample */
+.SecondImagesExample{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-color: #f0ece7;
+}
+.SecondGamesImgExample{
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+.SecondGamesImgExample:first-child{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    }
+/* 1gametext */
+.GamesSecondExampleOfText {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fcbe55;
+
+    background-color: #f0ece7;  
+}
+
+.none{
+    display:none;
+}
+
+/*invise for js*/
+.invise{
+    display: none;
+    transition: 1s all;
+}
