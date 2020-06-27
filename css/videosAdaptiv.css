@@ -1,21 +1,7 @@
 @media only screen and (max-width: 1280px){
-/* menu*/
-.menu{
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    position: fixed;
-    font-weight: bold;
-    background: #4f2377; 
-    z-index: 1;
-}
+
 .nav_main{
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -23,80 +9,6 @@
 
 }
 
-
-/* menu_buttons */
-.nav_menu_buttons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 17px;
-
-}
-
-/* games */
-.nav_fa_games a{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    text-decoration: none;
-}
-.fa_games{
-    color: #b3aeae;
-}
-.nav_games{
-    color: #b3aeae;
-}
-
-/* reading */
-.nav_fa_reading a{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    text-decoration: none;
-}
-
-.fa_reading{
-    color: #b3aeae;
-}
-.nav_reading{
-    color: #b3aeae;
-}
-
-/* videos */
-.nav_fa_videos a{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    text-decoration: none;
-}
-.fa_videos{
-    color: #cc3dbc;
-}
-.nav_videos{
-    color: #cc3dbc;
-}
-
-/* Zone */
-.nav_fa_Zone a{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    text-decoration: none;
-}
-.fa_Zone{
-    color: #b3aeae;
-}
-.nav_Zone{
-    color: #b3aeae;
-}
 /* gradePage */
 .gradePage{
     font-weight: bolder;
@@ -114,25 +26,20 @@
     justify-content: space-around;
     align-items: center;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 .grade_span_k a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #dd89b7;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 20px;
-    transition: all 1s;
-}
-.grade_span_k a:hover{
-    background-color: #dd89b7;
-    color: black;
+    font-size: 15px;
     transition: all 1s;
 }
 
@@ -140,148 +47,107 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #66a2cc;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
 }
-.grade_span_1 a:hover{
-    transition: all 1s;
-    background-color: #66a2cc;
-    color: black;
-}
-
 .grade_span_2 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #fcbe55;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
-}
-.grade_span_2 a:hover{
-    transition: all 1s;
-    background-color: #fcbe55;
-    color: black;
 }
 .grade_span_3 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #aabe53;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
 }
-.grade_span_3 a:hover{
-    transition: all 1s;
-    background-color: #aabe53;
-    color: black;
-}
+
 
 .grade_span_4 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #f48f4a;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
 }
-.grade_span_4 a:hover{
-    transition: all 1s;
-    background-color: #f48f4a;
-    color: black;
-}
+
 .grade_span_5 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #a585be;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
-}
-.grade_span_5 a:hover{
-    transition: all 1s;
-    background-color: #a585be;
-    color: black;
 }
 
 .grade_span_6 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #ddd64e;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
-}
-.grade_span_6 a:hover{
-    transition: all 1s;
-    background-color: #ddd64e;
-    color: black;
 }
 .grade_span_7 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #ff5c5c;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
 }
-.grade_span_7 a:hover{
-    transition: all 1s;
-    background-color: #ff5c5c;
-    color: black;
-}
+
 .grade_span_8 a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: #4f2377; 
     color: #7ab3b2;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     transition: all 1s;
-}
-.grade_span_8 a:hover{
-    transition: all 1s;
-    background-color: #7ab3b2;
-    color: black;
 }
 .video{
     background-color: #f0ece7;;
@@ -300,69 +166,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-}
-.footer_item a{
-    color: #f0ece7;
-    text-decoration: none;
-}
-/* footerGrade */
-.footerGrade{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.footerGrade_span_text{
-    list-style: none;
-}
-
-.footerGrade_span_text li:first-child{
-    color: #40ccc5;
-}
-
-/* footertype */
-.footerType{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.footerType_text{
-    list-style: none;
-}
-.footerType_text li:first-child{
-    color: #a585be;
-}
-/* footerAbout */
-.footerAbout{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.footerAboutSite{
-    list-style: none;
-}
-.footerAboutSite li:first-child{
-    color: #aabe53;
-}
-
-/* footerPrivacyPolice */
-.footerPrivacyPolice{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.privacyPolice{
-    list-style: none;
-}
-.privacyPolice li:first-child{
-    color: #fff;
-    font-weight: 700;
-}
-.privacyPolice li {
-    color: lightgray;
+    font-size: 15px;
 }
 /* gobackVideo*/
 
@@ -376,7 +180,7 @@
 
 .goBack button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -398,7 +202,7 @@
 
 .goBackTo button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -419,7 +223,7 @@
 
 .goBackToThree button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -440,7 +244,7 @@
 
 .goBackToFour button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -461,7 +265,7 @@
 
 .goBackToFive button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -482,7 +286,7 @@
 
 .goBackToSix button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -503,7 +307,7 @@
 
 .goBackToSeven button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -524,7 +328,7 @@
 
 .goBackToEight button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -545,7 +349,7 @@
 
 .goBackInst button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     background: #397db9;
     color: white;
     border: 0.5px solid white;
@@ -557,92 +361,410 @@
 }
 
 }
-@media only screen and (max-width: 1024px){
-    /* menu*/
-    .menu{
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        position: fixed;
-        font-weight: bold;
-        background: #4f2377; 
-        z-index: 1;
-    }
+@media only screen and (max-width: 900px){
+    
+.nav_main{
+    font-size: 15px;
+
+}
+.nav_main img{
+    width: 80%;
+    display: flex;
+}
+ .nav_games{
+     font-size: 13px;
+ }
+ .nav_reading{
+    font-size: 13px;
+ }
+ .nav_videos{
+    font-size: 13px;
+ }
+ .nav_Zone{
+    font-size: 13px;
+ }
+
+/* gradePage */
+.gradePage{
+    font-weight: bolder;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dbd7d2;
+}
+.grade_span_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.grade_span_k a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #dd89b7;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.grade_span_1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #66a2cc;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+.grade_span_2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #fcbe55;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+.grade_span_3 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #aabe53;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+
+.grade_span_4 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #f48f4a;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.grade_span_5 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #a585be;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.grade_span_6 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #ddd64e;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+.grade_span_7 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #ff5c5c;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.grade_span_8 a{
+    width: 100px;
+    height: 60px;
+    background-color: #4f2377; 
+    color: #7ab3b2;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+/* footer */
+.footer{
+    padding: 50px;
+    background-color: #2a2928;
+    width: 100%;
+    height: 300px;
+    color: #f0ece7;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+}
+/* gobackVideo*/
+
+.goBack {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBack button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+/* 2 */
+.goBackTo {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackTo button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 3 */
+.goBackToThree {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToThree button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 4 */
+.goBackToFour {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFour button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 5 */
+.goBackToFive {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToFive button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 6 */
+.goBackToSix {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSix button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 7 */
+.goBackToSeven {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToSeven button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* 8 */
+.goBackToEight {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackToEight button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+/* к */
+.goBackInst {
+    background-color: #f0ece7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.goBackInst button{
+    cursor: pointer;
+    font-size: 15px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3em;
+    padding: 2px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20px;
+    
+}
+
+}
+
+@media only screen and (max-width: 414px){
+    
     .nav_main{
-        font-size: 50px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-around;
+        font-size: 15px;
     
     }
-    
-    
-    /* menu_buttons */
-    .nav_menu_buttons{
+    .nav_main img{
+        width: 80%;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 14px;
-    
     }
+     .nav_games{
+        display: none;
+     }
+     .nav_reading{
+        display: none;
+     }
+     .nav_videos{
+        display: none;
+     }
+     .nav_Zone{
+        display: none;
+     }
     
-    /* games */
-    .nav_fa_games a{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px;
-        text-decoration: none;
-    }
-    
-    /* reading */
-    .nav_fa_reading a{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px;
-        text-decoration: none;
-    }
-
-    
-    /* videos */
-    .nav_fa_videos a{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px;
-        text-decoration: none;
-    }
-
-    
-    /* Zone */
-    .nav_fa_Zone a{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px;
-        text-decoration: none;
-    }
-
     /* gradePage */
     .gradePage{
         font-weight: bolder;
         width: 100%;
-        height: 330px;
+        height: 1200px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #dbd7d2;
     }
     .grade_span_text{
@@ -651,25 +773,20 @@
         justify-content: space-around;
         align-items: center;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
     }
     .grade_span_k a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #dd89b7;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 20px;
-        transition: all 1s;
-    }
-    .grade_span_k a:hover{
-        background-color: #dd89b7;
-        color: black;
+        font-size: 15px;
         transition: all 1s;
     }
     
@@ -677,152 +794,107 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #66a2cc;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
     }
-    .grade_span_1 a:hover{
-        transition: all 1s;
-        background-color: #66a2cc;
-        color: black;
-    }
-    
     .grade_span_2 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #fcbe55;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
-    }
-    .grade_span_2 a:hover{
-        transition: all 1s;
-        background-color: #fcbe55;
-        color: black;
     }
     .grade_span_3 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #aabe53;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
     }
-    .grade_span_3 a:hover{
-        transition: all 1s;
-        background-color: #aabe53;
-        color: black;
-    }
+    
     
     .grade_span_4 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #f48f4a;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
     }
-    .grade_span_4 a:hover{
-        transition: all 1s;
-        background-color: #f48f4a;
-        color: black;
-    }
+    
     .grade_span_5 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #a585be;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
-    }
-    .grade_span_5 a:hover{
-        transition: all 1s;
-        background-color: #a585be;
-        color: black;
     }
     
     .grade_span_6 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #ddd64e;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
-    }
-    .grade_span_6 a:hover{
-        transition: all 1s;
-        background-color: #ddd64e;
-        color: black;
     }
     .grade_span_7 a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #ff5c5c;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
     }
-    .grade_span_7 a:hover{
-        transition: all 1s;
-        background-color: #ff5c5c;
-        color: black;
-    }
+    
     .grade_span_8 a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
         background-color: #4f2377; 
         color: #7ab3b2;
         text-decoration: none;
         font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 30px;
+        font-size: 15px;
         transition: all 1s;
-    }
-    .grade_span_8 a:hover{
-        transition: all 1s;
-        background-color: #7ab3b2;
-        color: black;
-    }
-    .video{
-        background-color: #f0ece7;;
-        padding: 50px;
     }
     
     /* footer */
@@ -837,37 +909,7 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-    }
-    /* footerGrade */
-    .footerGrade{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    /* footertype */
-    .footerType{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    /* footerAbout */
-    .footerAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    
-    /* footerPrivacyPolice */
-    .footerPrivacyPolice{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        font-size: 10px;
     }
     /* gobackVideo*/
     
@@ -881,7 +923,7 @@
     
     .goBack button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -903,7 +945,7 @@
     
     .goBackTo button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -924,7 +966,7 @@
     
     .goBackToThree button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -945,7 +987,7 @@
     
     .goBackToFour button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -966,7 +1008,7 @@
     
     .goBackToFive button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -987,7 +1029,7 @@
     
     .goBackToSix button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -1008,7 +1050,7 @@
     
     .goBackToSeven button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -1029,7 +1071,7 @@
     
     .goBackToEight button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;
@@ -1050,7 +1092,7 @@
     
     .goBackInst button{
         cursor: pointer;
-        font-size: 20px;
+        font-size: 15px;
         background: #397db9;
         color: white;
         border: 0.5px solid white;

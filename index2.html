@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Дидактическая игра-обучалка коректного распознавания речи</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/voice.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/a58d7533d9.js" crossorigin="anonymous"></script>
+</head>
+<body style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px;">
+
+  <div class="main">
+    <div class="menu">
+      <div class="nav_main">
+
+        <a href="index.html">
+          <img src="img/favicon-32x32.png">
+        </a>
+      </div>
+
+      <!-- nav_menu_Buttons -->
+      <div class="nav_menu_buttons">
+
+        <div class="nav_fa_games">
+          <a href="games.html">
+            <span class="fa_games"><i class="fas fa-gamepad"></i></span>
+            <span class="nav_games">ИГРЫ</span>
+          </a>
+        </div>
+
+        <div class="nav_fa_reading">
+          <a href="books.html">
+            <span class="fa_reading"><i class="fas fa-book-open"></i></span>
+            <span class="nav_reading">ПРЕЗЕНТАЦИИ</span>
+          </a>
+        </div>
+
+        <div class="nav_fa_videos">
+          <a href="videos.html">
+            <span class="fa_videos"><i class="fab fa-youtube"></i></span>
+            <span class="nav_videos">ВИДЕО</span>
+          </a>
+        </div>
+
+        <div class="nav_fa_Zone2">
+          <a href="documents.html">
+            <span class="fa_Zone"><i class="fa fa-file" aria-hidden="true"></i></span>
+            <span class="nav_Zone">ФАЙЛОВОЕ ХРАНИЛИЩЕ</span>
+          </a>
+        </div>
+
+        <div class="nav_fa_Zone2">
+          <a href="index2.html">
+            <span class="fa_Zone2"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+            <span class="nav_Zone2">Распознавание голоса</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- <uidiv> -->
+  <div id="warning">
+    <h1 style="font-weight:500;">Нет доступа.</h1>
+  </div>
+  
+  <div id="content" style="display:none">
+    <table width="100%">
+      <tr>
+        <td></td>
+        <td><h1 style="font-weight:500;">Дидактическая игра-обучалка "Назови животное"</h1></td>
+      </tr>
+      <tr>
+        <td></td>
+      <td><h1 style="font-weight:500;font-weight: 700;">НАЗОВИ , КАКИЕ ЖИВОТНЫЕ ИЗОБРАЖЕНЫ НА КАРТИНКАХ</h1></td>
+      </tr>
+      <tr>
+        <td><input id="subscriptionKey" type="text" size="40" value="8eac0659b00f4f71a7066be468f32397"></td>
+      </tr>
+      <tr>
+        <td><input id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button id="startRecognizeOnceAsyncButton"> Скажите <i class="fa fa-microphone" aria-hidden="true"></i></button></td>
+      </tr>
+      <tr>
+        <td align="right" valign="top" style="font-size: 40px;font-weight: 700;">Результат</td>
+        <td><textarea id="phraseDiv" style="display: inline-block;width:500px;height:200px;font-size: 20px;"></textarea></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="imageForVoice">
+    <img src="imgforGames/cat2.png" alt="">
+    <img src="imgforGames/fox.png" alt="">
+    <img src="imgforGames/Спутник_Тигрёнок.png" alt="">
+    <img src="imgforGames/wolf2.png" alt="">
+    <img src="imgforGames/lev2.png" alt="">
+  </div>
+  <!-- </uidiv> -->
+
+  <!-- <speechsdkref> -->
+  <!-- Speech SDK reference sdk. -->
+  <script src="microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+  <!-- </speechsdkref> -->
+
+  <!-- <authorizationfunction> -->
+  <!-- Speech SDK Authorization token -->
+  <script>
+  // Note: Replace the URL with a valid endpoint to retrieve
+  //       authorization tokens for your subscription.
+  var authorizationEndpoint = "token.php";
+
+  function RequestAuthorizationToken() {
+    if (authorizationEndpoint) {
+      var a = new XMLHttpRequest();
+      a.open("GET", authorizationEndpoint);
+      a.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      a.send("");
+      a.onload = function() {
+          var token = JSON.parse(atob(this.responseText.split(".")[1]));
+          serviceRegion.value = token.region;
+          authorizationToken = this.responseText;
+          subscriptionKey.disabled = true;
+          subscriptionKey.value = "using authorization token (hit F5 to refresh)";
+          console.log("Got an authorization token: " + token);
+      }
+    }
+  }
+  </script>
+  <!-- </authorizationfunction> -->
+
+  <!-- <quickstartcode> -->
+  <!-- Speech SDK USAGE -->
+  <script>
+    // status fields and start button in UI
+    var phraseDiv;
+    var startRecognizeOnceAsyncButton;
+
+    // subscription key and region for speech services.
+    var subscriptionKey, serviceRegion;
+    var authorizationToken;
+    var SpeechSDK;
+    var recognizer;
+
+    document.addEventListener("DOMContentLoaded", function () {
+      startRecognizeOnceAsyncButton = document.getElementById("startRecognizeOnceAsyncButton");
+      subscriptionKey = document.getElementById("subscriptionKey");
+      serviceRegion = document.getElementById("serviceRegion");
+      phraseDiv = document.getElementById("phraseDiv");
+
+      startRecognizeOnceAsyncButton.addEventListener("click", function () {
+        startRecognizeOnceAsyncButton.disabled = true;
+        phraseDiv.innerHTML = "";
+
+        // if we got an authorization token, use the token. Otherwise use the provided subscription key
+        var speechConfig;
+        if (authorizationToken) {
+          speechConfig = SpeechSDK.SpeechConfig.fromAuthorizationToken(authorizationToken, serviceRegion.value);
+        } else {
+          if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+            alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+            return;
+          }
+          speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+        }
+
+        speechConfig.speechRecognitionLanguage = "ru-ru";
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
+
+        recognizer.recognizeOnceAsync(
+          function (result) {
+            startRecognizeOnceAsyncButton.disabled = false;
+            phraseDiv.innerHTML += result.text;
+            window.console.log(result);
+
+            recognizer.close();
+            recognizer = undefined;
+          },
+          function (err) {
+            startRecognizeOnceAsyncButton.disabled = false;
+            phraseDiv.innerHTML += err;
+            window.console.log(err);
+
+            recognizer.close();
+            recognizer = undefined;
+          });
+      });
+
+      if (!!window.SpeechSDK) {
+        SpeechSDK = window.SpeechSDK;
+        startRecognizeOnceAsyncButton.disabled = false;
+
+        document.getElementById('content').style.display = 'block';
+        document.getElementById('warning').style.display = 'none';
+
+        // in case we have a function for getting an authorization token, call it.
+        if (typeof RequestAuthorizationToken === "function") {
+            RequestAuthorizationToken();
+        }
+      }
+    });
+  </script>
+  <!-- </quickstartcode> -->
+</body>
+</html>

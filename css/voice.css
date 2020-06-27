@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    height: 1300px;
+    
+  }
+  
+/* menu*/
+.menu{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    position: fixed;
+    font-weight: bold;
+    background: #4f2377; 
+    z-index: 1;
+}
+.nav_main{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/* menu_buttons */
+.nav_menu_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+
+}
+
+/* games */
+.nav_fa_games a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.fa_games{
+    color: #b3aeae;
+}
+.nav_games{
+    color: #b3aeae;
+}
+
+/* reading */
+.nav_fa_reading a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.fa_reading{
+    color: #b3aeae;
+}
+.nav_reading{
+    color: #b3aeae;
+}
+
+/* videos */
+.nav_fa_videos a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.fa_videos{
+    color: #b3aeae;
+}
+.nav_videos{
+    color: #b3aeae;
+}
+
+
+
+/* Zone */
+.nav_fa_Zone a{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.fa_Zone{
+    color: #b3aeae;
+}
+.nav_Zone{
+    color: #b3aeae;
+}
+/* Zone */
+.nav_fa_Zone2 a{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.fa_Zone2{
+    color: rgb(71, 189, 71);
+}
+.nav_Zone2{
+    color: rgb(71, 189, 71);
+}
+input{
+    display: none;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(142, 44, 167);
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-size: 35px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px solid black;
+    transition: all 1s;
+}
+button:hover{
+    font-size: 35px;
+    background: green;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px solid black;
+    transition: all 2s;
+}
+td{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(142, 44, 167);
+    font-family: 'Open Sans', sans-serif;
+}
+.imageForVoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+.imageForVoice img {
+    width: 180px;
+    height: 180px;
+}
+
+@media only screen and (max-width: 414px){
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(142, 44, 167);
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-size: 35px;
+    background: #397db9;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px solid black;
+    transition: all 1s;
+}
+button:hover{
+    font-size: 35px;
+    background: green;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px solid black;
+    transition: all 2s;
+}
+td{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(142, 44, 167);
+    font-family: 'Open Sans', sans-serif;
+}
+.imageForVoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.imageForVoice img {
+    width: 150px;
+    height: 15px;
+}
+}
